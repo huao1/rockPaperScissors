@@ -1,0 +1,52 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.score {
+    margin-top: 0;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    margin-bottom: 25px;
+}
+
+.replay {
+    font-size: x-large;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    display: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 96px;
+    margin-top: 175px;
+    justify-content: center;
+    align-items: center;
+}

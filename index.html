@@ -4,11 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="index.js"></script>
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="index.css">
         <title>RockPaperScissors</title>
     </head>
-    <body>
-        <script>
-        </script>
+    <body class="main-container">
+        <div class="name-container">
+            <h1>Human</h1>
+            <h1>VS</h1>
+            <h1>Computer</h1>
+        </div>
+        <div class="score-container">
+            <h1 id="human-score" class="score">0</h1>
+            <h1 id="computer-score" class="score">0</h1>
+        </div>
+        <div class="message-container"></div>
+
+        <button class="replay">Play Again</button>
+
+        <div class="button-container">
+            <button id="rock"><img src="./image/rock.jpeg"></button>
+            <button id="paper"><img src="./image/paper.jpeg"></button>
+            <button id="scissor"><img src="./image/scissor.jpeg"></button>
+        </div>
     </body>
 </html>
