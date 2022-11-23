@@ -141,9 +141,6 @@ function game() {
                     break;
             }
             checkWinCondition(playerScore, computerScore);
-          //  if (checkWinCondition(playerScore, computerScore) == 1) {
-        //        replay();
-      //      }
 
         });
     });
